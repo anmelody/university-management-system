@@ -3,8 +3,6 @@ name: Java Maven CI
 on:
   push:
     branches: [ "main", "master" ]
-  pull_request:
-    branches: [ "main", "master" ]
 
 jobs:
   build:
@@ -23,6 +21,9 @@ jobs:
 
     - name: Verify Java version
       run: java -version
+
+    - name: Give permission to mvnw
+      run: chmod +x mvnw
 
     - name: Use Maven Wrapper
       run: ./mvnw -v
