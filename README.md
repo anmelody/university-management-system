@@ -125,3 +125,5 @@ For questions, suggestions, or contributions, please contact:
 **Temirlan Turgimbayev**  
 Email: [tturgimbayev@gmail.com]  
 GitHub: [Timirlon](https://github.com/Timirlon)
+
+Updated by Member 4 for CI teamwork
